@@ -2,66 +2,72 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Portfolio | Spider-Mann</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 <body>
-
-<div class="wrapper">
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Spider-Mann</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container p-0">
+      <a class="navbar-brand" href="index.html">Spider-Mann</a><button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="index.html">About</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
-      </nav>
+      </div>
     </div>
-  </header>
-
-  <main class="container">
-    <section class="main-section">
-      <h1>Portfolio</h1>
-
-      <div class="work">
-        <img src="assets/images/portfolio_1.jpg" alt="Smile!">
-
-        <h3>How do I look?</h3>
+  </nav>
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="card col-lg-8 mt-4">
+        <div class="card-body">
+          <h4 class="card-title">Portfolio</h4>
+          <hr>
+          <div class="row">
+            <div class="card-columns">
+              <div class="card">
+                <img src="assets/images/portfolio_1.jpg" alt="Smile!">
+                <li class="list-group-item bg-light border-0 text-center">Picture 1</li>
+              </div>
+              <div class="card">
+                  <img src="assets/images/portfolio_2.jpg" alt="Safe Landing">
+                  <li class="list-group-item bg-light border-0 text-center">Picture 2</li>
+              </div>
+              <div class="card">
+                  <img src="assets/images/portfolio_3.jpg" alt="Sticky Pole">
+                  <li class="list-group-item bg-light border-0 text-center">Picture 3</li>
+              </div>
+              <div class="card">
+                  <img src="assets/images/portfolio_4.jpg" alt="Bad Guys">
+                  <li class="list-group-item bg-light border-0 text-center">Picture 4</li>
+              </div>
+              <div class="card">
+                  <img src="assets/images/portfolio_5.jpg" alt="Upside Down or vice-versa">
+                  <li class="list-group-item bg-light border-0 text-center">Picture 5</li>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="work">
-        <img src="assets/images/portfolio_2.jpg" alt="Safe Landing">
-
-        <h3>Safe Landing</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/portfolio_3.jpg" alt="Sticky Pole">
-
-        <h3>Sticky Pole</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/portfolio_4.jpg" alt="Bad Guys">
-
-        <h3>Fighting Bad Guys</h3>
-      </div>
-      <div class="work">
-        <img src="assets/images/portfolio_5.jpg"  alt="Upside Down or vice-versa">
-
-        <h3>Downside Up</h3>
-      </div>
-
-    </section>
-  </main>
-  <div class="push"></div>
-</div>
-
-  <footer>
-    <div class="container">
-      &copy; Copyright
     </div>
-  </footer>
-</body>
-</html>
+  </div> 
+  <footer class="footer">
+      <div class="container">
+        &copy;&nbsp;Copyright
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script> 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script> 
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
+  </body>
+  </html>

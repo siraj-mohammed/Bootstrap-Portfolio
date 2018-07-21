@@ -2,47 +2,55 @@
 <html lang="en-us">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>About | Spider-Mann</title>
   <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
-<body>
-
-<div class="wrapper">
-
-  <header id="masthead">
-    <div class="container">
-      <a href="index.html" id="logo">Spider-Mann</a>
-      <nav>
-        <ul>
-          <li><a href="index.html">About</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
-          <li><a href="contact.html">Contact</a></li>
+<body>  
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container p-0">
+      <a class="navbar-brand" href="index.html">Spider-Mann</a><button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-target="#navbarNav" data-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
         </ul>
-      </nav>
+      </div>
     </div>
-  </header>
-
-  <main class="container">
-    <section class="main-section">
-      <h1>About Me</h1>
-
-      <img src="assets/images/profile.jpg" class="auth-image" alt="Spider-Mann Profile">
-
-      <p>Aliquam quam risus, hendrerit a venenatis a, imperdiet non urna. In pulvinar lectus at velit vestibulum pellentesque. Integer efficitur diam tellus, non malesuada odio tristique at. Fusce maximus, orci ut placerat auctor, turpis lacus cursus magna, sed consequat ante eros ac est. Quisque maximus libero ut consequat maximus. Cras sodales odio at suscipit mollis. Suspendisse consequat purus neque, nec accumsan felis pretium sit amet.</p>
-
-      <p>Nulla ultricies finibus libero sed fermentum. Nulla et elementum magna, a semper lectus. Curabitur vitae commodo purus. Mauris accumsan elit ut tellus tincidunt luctus. Donec metus neque, maximus ac aliquam non, pharetra eu ligula. Mauris lacinia sem hendrerit accumsan malesuada. Pellentesque vehicula ipsum at sapien cursus, ut porta arcu tempor. Etiam tristique blandit pellentesque. Pellentesque ullamcorper ultrices varius. Phasellus vitae dui scelerisque, pharetra eros sit amet, rhoncus ex. Integer lorem velit, ultrices at finibus id, iaculis nec justo.</p>
-
-    </section>
-
-  </main>
-  <div class="push"></div>
-</div>
-
-  <footer>
+  </nav>
+  <div class="container">
+    <div class="row justify-content-between">
+      <div class="card col-lg-8 mt-4">
+        <div class="card-body">
+          <h4 class="card-title">About Me</h4>
+          <hr>
+          <img alt="Profile Picture" class="float-left col-lg-4" src="./assets/images/profile.jpg">
+          <p>
+            Aliquam quam risus, hendrerit a venenatis a, imperdiet non urna. In pulvinar lectus at velit vestibulum pellentesque. Integer efficitur diam tellus, non malesuada odio tristique at. Fusce maximus, orci ut placerat auctor, turpis lacus cursus magna, sed consequat ante eros ac est. Quisque maximus libero ut consequat maximus. Cras sodales odio at suscipit mollis. Suspendisse consequat purus neque, nec accumsan felis pretium sit amet.
+          </p>
+          <p>
+              Nulla ultricies finibus libero sed fermentum. Nulla et elementum magna, a semper lectus. Curabitur vitae commodo purus. Mauris accumsan elit ut tellus tincidunt luctus. Donec metus neque, maximus ac aliquam non, pharetra eu ligula. Mauris lacinia sem hendrerit accumsan malesuada. Pellentesque vehicula ipsum at sapien cursus, ut porta arcu tempor. Etiam tristique blandit pellentesque. Pellentesque ullamcorper ultrices varius. Phasellus vitae dui scelerisque, pharetra eros sit amet, rhoncus ex. Integer lorem velit, ultrices at finibus id, iaculis nec justo.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer class="footer">
     <div class="container">
-      &copy; Copyright
+      &copy;&nbsp;Copyright
     </div>
   </footer>
+  <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"></script> 
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 </body>
 </html>
